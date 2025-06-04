@@ -24,3 +24,7 @@ variable "app_name" {
   type    = string
 }
 
+variable "backend_port_name" {
+   default = "webserver"
+   type    = string 
+}

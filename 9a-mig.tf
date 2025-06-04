@@ -23,7 +23,7 @@ resource "google_compute_region_instance_group_manager" "region_a" {
 
   # Named Port
   named_port {
-    name = "webserver"
+    name = var.backend_port_name
     port = 80
   }
 
