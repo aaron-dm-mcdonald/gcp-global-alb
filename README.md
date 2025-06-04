@@ -4,10 +4,14 @@
 
 ## documentation links
 
+- [Global External Application LB](https://cloud.google.com/load-balancing/docs/https/setup-global-ext-https-compute)
+- [Cloud Skills Boost Lab](https://www.cloudskillsboost.google/focuses/1232?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=44407083)
+- [Deep Dive into Global LB](https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-global-external-https-load-balancer-deep-dive)
+
 ## architecture diagrams
-![](./060325/assets/console-to-tf-map.PNG)
-![](./060325/assets/GCP+Global+LB+components.png)
-![](./060325/assets/global-lb-v2.svg)
+![](https://github.com/aaron-dm-mcdonald/class6.5-notes/blob/main/060325/assets/console-to-tf-map.PNG)
+![](https://github.com/aaron-dm-mcdonald/class6.5-notes/blob/main/060325/assets/GCP%2BGlobal%2BLB%2Bcomponents.png)
+![](https://github.com/aaron-dm-mcdonald/class6.5-notes/blob/main/060325/assets/global-lb-v2.svg)
 
 ## Global LB test script
 - [Old test script README](../041925/README.md)
