@@ -2,12 +2,19 @@
 
 ## Table of Contents
 
+- [Overview](#overview)
 - [Documentation Links](#documentation-links)
 - [Architecture Diagrams](#architecture-diagrams)
 - [Global LB Test Script](#global-lb-test-script)
 - [Naming Convention](#naming-convention)
 - [Resources Change List](#resources-change-list)
 - [Conclusion](#conclusion)
+
+---
+
+## Overview
+
+This repo is for migrating a regional, external, application load balancer to a global ALB using terraform. [This is the referenced repo](https://github.com/aaron-dm-mcdonald/gcp-private-mig-lb-terraform). The README contains a detailed change log. In addition basic variables are implemented. Additional output is added as well. 
 
 ---
 
