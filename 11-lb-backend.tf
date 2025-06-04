@@ -29,7 +29,7 @@ resource "google_compute_backend_service" "lb" {
   health_checks         = [ google_compute_health_check.lb.self_link ]
 
   # Named port used by the backend VMs (must match the named port on instance groups).
-  port_name             = "webserver"
+  port_name             = var.backend_port_name
 
   # Backend for Region A
   backend {
