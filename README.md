@@ -12,7 +12,10 @@
 ## Global LB test script
 - [Old test script README](../041925/README.md)
 
-- Alternate: 
+- New LB:
+ pip install locust
+ 
+ locust -f <locustfile.py location> --headless -u 100 -r 10 --host http://<LB IP ADDRESS>
 
 
 
@@ -43,4 +46,3 @@
 - 11-lb-backend.tf:
 
 - 12-lb-frontend.tf:
-# gcp-global-alb

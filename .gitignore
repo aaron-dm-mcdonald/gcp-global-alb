@@ -40,3 +40,5 @@ terraform.rc
 *.json 
 
 __pycache__
+
+.terraform.lock.hcl
