@@ -1,5 +1,7 @@
-# # https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_address
-# # Resource: Reserve Global Static IP Address
+# Client -> Static IP -> Fwd Rule -> HTTP Proxy -> URL Map (URL Map chooses backend service)
+
+# https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_address
+# Resource: Reserve Global Static IP Address
 resource "google_compute_global_address" "lb" {
   name   = "lb-static-ip"
  
