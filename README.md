@@ -30,6 +30,8 @@
 
 2) regional resources named or prefixed with "region_a" or "region_b"
 
+3) regional resources are segmented to files prefixed with "a" or "b" after the number of the file (9-mig.tf -> 9a-mig.tf)
+
 ## resources change list:
 - variables.tf:
     - simple variables of type string are used
@@ -55,7 +57,8 @@
 - 7a-compute.tf: removed, VM demo no longer needed
 
 - 7b-template.tf: 
-    - add additional template with different startup script in the new subnet
+    - add additional template
+    - use different startup script for each template and add them in different regions
     - renamed to 7a-template.tf and 7b-template.tf
 
 - 8-health-check.tf: 
