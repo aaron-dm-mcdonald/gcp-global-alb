@@ -17,10 +17,11 @@
 - [Old test script README](../041925/README.md)
 
 - New LB:
+ ```bash
  pip install locust
  
  locust -f <locustfile.py location> --headless -u 100 -r 10 --host http://<LB IP ADDRESS>
-
+```
 
 
 ## naming convention
